@@ -2,7 +2,6 @@ Source: xfonts-encodings
 Section: x11
 Priority: optional
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Uploaders: David Nusinow <dnusinow@debian.org>, Cyril Brulebois <kibi@debian.org>
 Build-Depends:
  debhelper (>= 5.0.0),
 Build-Depends-Indep:
@@ -17,6 +16,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-xorg/font/xfonts-encodings.git
 
 Package: xfonts-encodings
 Architecture: all
+Multi-Arch: foreign
 Depends: ${shlibs:Depends}, ${misc:Depends}, x11-common
 Replaces: xfonts-base (<< 1:1.0.0)
 Description: Encodings for X.Org fonts

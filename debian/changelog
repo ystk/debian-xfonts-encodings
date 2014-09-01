@@ -1,3 +1,10 @@
+xfonts-encodings (1:1.0.4-2) unstable; urgency=low
+
+  * Make xfonts-encodings Multi-Arch: foreign (closes: #664589)
+  * Remove David and Cyril from Uploaders.
+
+ -- Julien Cristau <jcristau@debian.org>  Sat, 12 Jul 2014 19:32:56 +0200
+
 xfonts-encodings (1:1.0.4-1) unstable; urgency=low
 
   [ Julien Cristau ]
